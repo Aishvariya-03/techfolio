@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aishvariya's Personal Portfolio</title>
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="./assets/images/aishvariya.png" type="image/x-icon">
+
+  <!--custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <!--Sidebar-->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Aishvariya Senaiyar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aishvariya Senaiyar">Aishvariya Senaiyar</h1>
+
+          <p class="title">Software developer<br>Cybersecurity Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:aishvariya19703@gmail.com" class="contact-link">aishvariya19703@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9307844518" class="contact-link">+91 9307844518</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+              <a href="https://github.com/Aishvariya-03" style="color: white;">Aishvariya-03</a></time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mumbai, 401303</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+    </aside>
+
+    <!--main-content-->
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link" id="theme-toggle">
+              <ion-icon name="sunny-outline" id="theme-icon"></ion-icon>
+            </button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--ABOUT-->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <b><em>🚀 Empowering Digital Innovation with Secure & Scalable Solutions</em></b>
+          </p>
+          <p>
+            Hi, I'm Aishvariya—an innovative technology professional based in Mumbai, India. With a solid foundation in computer applications and diverse hands-on experiences in software development, cybersecurity, and technical writing, I specialize in turning complex challenges into streamlined, user-friendly digital solutions.
+          </p>
+          <p>
+            My mission is clear: to fuse cutting-edge technology with creative design, ensuring every project is not only technically robust but also aesthetically engaging. 
+          </p>
+          <p>
+            Whether it's developing high-performance websites, implementing advanced security measures, or crafting clear technical documentation, I bring a unique blend of expertise and passion to every endeavor.
+          </p>
+        </section>
+
+        <!--service-->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Website Design</h4>
+
+                <p class="service-item-text">
+                  Creating responsive, SEO-optimized websites using HTML, CSS, React.js, and Bootstrap.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Development</h4>
+
+                <p class="service-item-text">
+                  Building scalable, responsive web applications using Python, JavaScript, and .NET.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web & Software Development</h4>
+
+                <p class="service-item-text">
+                  Building responsive and SEO-optimized websites with modern front-end frameworks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SEO Content Strategy</h4>
+
+                <p class="service-item-text">
+                  Creating high-ranking content to boost organic search visibility and traffic.
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technical Support</h4>
+
+                <p class="service-item-text">
+                  Resolving software and hardware issues to ensure smooth system operation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Penetration Testing</h4>
+
+                <p class="service-item-text">
+                  Simulate real-world attacks to identify and fix security vulnerabilities.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--RESUME-->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelors in Computer Applications</h4>
+
+              <span>2021-2024</span>
+
+              <p class="timeline-text">
+                Dr. BMN College of Home Science, 
+                CGPA: 8.52
+              </p>
+
+            </li>
+
+            <li class="timeline-item"><!-- HSC -->
+
+              <h4 class="h4 timeline-item-title">Higher Secondary Certificate</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                Viva College, Science, 83.5%
+              </p>
+
+            </li>
+
+            <li class="timeline-item"><!-- SSC -->
+
+              <h4 class="h4 timeline-item-title">Secondary School Certificate</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                Dr. N.P. Shah English High School, 75%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer & Technical Writer</h4>
+
+              <span>September 2024 — Present</span>
+
+              <p class="timeline-text">
+                The Ocean Marketing - Mumbai, California<br>
+                Developed and implemented comprehensive security plans to protect confidential data from cyber-attacks.
+                Facilitated documentation for external organizations operating in cybersecurity fields.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer</h4>
+
+              <span>July 2024 — Present</span>
+
+              <p class="timeline-text">
+                Ardor IT Solutions Inc. - Remote, North Carolina<br>
+                Designing scalable infrastructure, automating deployments with Shell and Perl scripts, enhancing CI/CD pipelines, 
+                performing vulnerability assessments, and implementing cloud-based security measures in Agile development environments.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>August 2024 - December 2024</span>
+
+              <p class="timeline-text">
+                Gao Tek Inc. - Remote, Canada<br>
+                Designed and maintained WordPress websites, ensuring responsiveness and user-friendly experiences. 
+                Improved site functionality and SEO through custom themes and plugins.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Quality Executive & Cybersecurity Analyst</h4>
+
+              <span>June 2024 - December 2024</span>
+
+              <p class="timeline-text">
+                Bare Internationals - Remote, USA<br>
+                Conducted cybersecurity assessments and audits, maintained high standards for data quality, and enhanced system security.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+              <span>August 2024 - November 2024</span>
+              <p class="timeline-text">
+                Bluestock Fintech - Remote<br>
+                Developed features in financial software using Python and .NET, collaborated on scalable backend systems, and optimized performance.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cybersecurity Analyst Intern</h4>
+              <span>July 2024 - October 2024</span>
+              <p class="timeline-text">
+                Prodigy InfoTech - Remote<br>
+                Created tools for encryption and password strength assessment in Python. Developed a network packet analyzer and keylogger for ethical monitoring.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cybersecurity Intern</h4>
+              <span>June 2024 - August 2024</span>
+              <p class="timeline-text">
+                NovaNectar Services - Remote, Hyderabad<br>
+                Conducted real-time threat analysis and vulnerability assessments, and implemented stronger network defense strategies.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer</h4>
+              <span>May 2024 - July 2024</span>
+              <p class="timeline-text">
+                Mind Zillion - Mumbai<br>
+                Developed and tested SaaS applications using .NET Core and JavaScript, supported backend services, and ensured functionality through unit testing.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Content Writer</h4>
+              <span>November 2023 - March 2024</span>
+              <p class="timeline-text">
+                <a href = "https://mobilegaminghub.com/author/asenaiyar/" style="color: lightgray;">Mobile Gaming Hub - Remote</a>
+                Created SEO-focused articles, researched industry trends, and optimized content for brand awareness and organic search rankings.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Technical Editor and Web Developer</h4>
+              <span>July 2023 - September 2023</span>
+              <p class="timeline-text">
+                GradPlus - Remote<br>
+                Developed and maintained websites, ensured HTML compliance, and applied SEO best practices to increase organic traffic by 15%.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Content Writer</h4>
+              <span>May 2023 - July 2023</span>
+              <p class="timeline-text">
+                Intake Learn Technologies - Remote<br>
+                Edited and created personalized AI-analyzed articles, improving visibility and engagement for the company.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Summer Intern</h4>
+              <span>May 2022 - July 2022</span>
+              <p class="timeline-text">
+                Aashmaan Foundation - Remote<br>
+                Enhanced project management skills, facilitated HR processes, and developed social media strategies to increase engagement.
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!--Skills-->
+      
+      <article class="skills" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="skills-badge-section">
+
+          <!-- 🌐 Web / Frontend -->
+          <div class="skill-badge">
+            <div class="badge-icon web">&lt;HTML5/&gt;</div>
+            <p class="badge-desc">Web Structure</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon web">.CSS{}</div>
+            <p class="badge-desc">Web Styling</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon web">JS()</div>
+            <p class="badge-desc">Dynamic Web Interactions</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon web">Boot strap(v5)</div>
+            <p class="badge-desc">Responsive Design</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon web">React .Component()</div>
+            <p class="badge-desc">Modern UI Development</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon web">streamlit _app()</div>
+            <p class="badge-desc">Rapid Web Apps</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon webs">$(document) .ready()</div>
+            <p class="badge-desc">jQuery</p>
+          </div>
+        
+          <!-- ⚙️ Backend -->
+          <div class="skill-badge">
+            <div class="badge-icon backend">def Python():</div>
+            <p class="badge-desc">Scripting & Automation</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">{C#}</div>
+            <p class="badge-desc">Object-Oriented Programming</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">.NET Core()</div>
+            <p class="badge-desc">Backend Framework</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">API:: Request()</div>
+            <p class="badge-desc">RESTful APIs</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">DB[Postgre SQL]</div>
+            <p class="badge-desc">Database Management</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">DB[MS SQL]</div>
+            <p class="badge-desc">Relational Databases</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">DB[My SQL]</div>
+            <p class="badge-desc">Database Handling</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">git push origin main</div>
+            <p class="badge-desc">GitHub</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon backend">[WordPress CMS]</div>
+            <p class="badge-desc">CMS Development</p>
+          </div>
+        
+          <!-- 🛡️ Cybersecurity -->
+          <div class="skill-badge">
+            <div class="badge-icon cyber">capture .pcapng</div>
+            <p class="badge-desc">WireShark</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">BurpSuite .scan()</div>
+            <p class="badge-desc">BurpSuite</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">msf console&gt;</div>
+            <p class="badge-desc">Penetration Testing</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">[Kali@ Linux:~]$</div>
+            <p class="badge-desc">Kali Linux</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">pentest _toolkit()</div>
+            <p class="badge-desc">Penetration Testing</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">VulnScanner .run()</div>
+            <p class="badge-desc">Vulnerability Assessment</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">incident _handler()</div>
+            <p class="badge-desc">Incident Response</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">[Security Onion]</div>
+            <p class="badge-desc">Threat Detection</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">NetSec .protocols()</div>
+            <p class="badge-desc">Network Security</p>
+          </div>
+        
+          <div class="skill-badge">
+            <div class="badge-icon cyber">Encrypt (data)</div>
+            <p class="badge-desc">Data Encryption</p>
+          </div>
+        
+        </section>   
+      </article>
+
+      <!--Portfolio-->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Aishvariya-03/SmartTranscriber">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="YouTube Video Summarizer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YouTube Video Summarizer</h3>
+
+                <p class="project-category">AI & Automation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Aishvariya-03/booktown">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="BookTown" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BookTown</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Aishvariya-03/Lifestyle-Zone">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="E-commerce Project" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-commerce Project</h3>
+
+                <p class="project-category">Full Stack Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Aishvariya-03/Stud_reg_sys">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="Student Management System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Management System</h3>
+
+                <p class="project-category">Database Management</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Aishvariya-03/Artsy-Blogs-and-Vlogs">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="WordPress Blog/Vlog Website" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">WordPress Blog/Vlog Website</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Aishvariya-03/Snake-Game">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="snake game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Snake Game</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--Contact-->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70949.35051443917!2d72.73085484691806!3d19.464403569299737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aa49b828c6a5%3A0xbefe4c41a14ad251!2sVirar%20West%2C%20Virar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1745249574555!5m2!1sen!2sin" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form 
+            action="https://formspree.io/f/mqaqaqwr" 
+            method="POST" 
+            class="form" 
+            data-form 
+            onsubmit="this.reset(); alert('✅ Thank you! Your message has been sent.');">
+
+            <div class="input-wrapper">
+              <input 
+                type="text" 
+                name="fullname" 
+                class="form-input" 
+                placeholder="Full name" 
+                required 
+                data-form-input>
+      
+              <input 
+                type="email" 
+                name="email" 
+                class="form-input" 
+                placeholder="Email address" 
+                required 
+                data-form-input>
+            </div>
+
+            <textarea 
+              name="message" 
+              class="form-input" 
+              placeholder="Your Message" 
+              required 
+              data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn disabled>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+    <!--custom js link-->
+    <script src="./assets/js/script.js"></script>
+
+    <!--ionicon link-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
