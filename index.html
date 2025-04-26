@@ -849,7 +849,8 @@
             action="https://formspree.io/f/mqaqaqwr" 
             method="POST" 
             class="form" 
-            data-form>
+            data-form
+            onsubmit="alert('✅ Thank you! Your message has been sent.');">
 
             <div class="input-wrapper">
               <input 
@@ -857,26 +858,23 @@
                 name="fullname" 
                 class="form-input" 
                 placeholder="Full name" 
-                required 
-                data-form-input>
+                required>
       
               <input 
                 type="email" 
                 name="email" 
                 class="form-input" 
                 placeholder="Email address" 
-                required 
-                data-form-input>
+                required>
             </div>
 
             <textarea 
               name="message" 
               class="form-input" 
               placeholder="Your Message" 
-              required 
-              data-form-input></textarea>
+              required></textarea>
 
-            <button class="form-btn" type="submit" data-form-btn disabled>
+            <button class="form-btn" type="submit">
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
