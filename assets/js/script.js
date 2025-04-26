@@ -163,26 +163,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-
-// Form submit functionality (after validation)
-form.addEventListener("submit", async function(event) {
-  event.preventDefault(); // Stop the normal submit
-
-  const formData = new FormData(form);
-
-  const response = await fetch(form.action, {
-    method: form.method,
-    body: formData,
-    headers: {
-      'Accept': 'application/json'
-    }
-  });
-
-  if (response.ok) {
-    alert('✅ Thank you! Your message has been sent.');
-    form.reset();
-    formBtn.setAttribute("disabled", ""); // Disable the button again after sending
-  } else {
-    alert('❌ Oops! There was a problem sending your message.');
-  }
-});
